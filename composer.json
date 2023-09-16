@@ -1,0 +1,22 @@
+{
+    "name": "fhsinchy/inspire",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"     
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fhsinchy\\Inspire\\": "packages/fhsinchy/inspire/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arman Fayziev",
+            "email": "arman.fayziev@scandiweb.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
